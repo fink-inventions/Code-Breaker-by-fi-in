@@ -1,8 +1,39 @@
 
 
-
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 10% 10% 50% 20%;
+   }
 
 .grid-item {
     width: 80px;
     height: 80px;
+    background-color: aquamarine;
+
+   
 }
+
+#Rot.grid-item {
+    background-color: red;
+  
+}
+#Blau.grid-item {
+    background-color: blue;
+}
+#Gruen.grid-item {
+    background-color: green;
+}
+#Gelb.grid-item {
+    background-color: yellow;
+}
+button {
+    border-style: solid;
+    border-width:  5px;
+}
+
+#Position1.grid-item {
+    background-color: black;
+}
+
+
