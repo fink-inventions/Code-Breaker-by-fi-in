@@ -80,4 +80,8 @@ p.grid-item {
     
 }
 
+#Position.grid-item {
+    box-shadow: -3px -2px;
+}
+
 
