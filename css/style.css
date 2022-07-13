@@ -1,23 +1,20 @@
 body {
     margin-left: 50px;
 }
-.grid-container {
-    display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr  1fr 1fr;
-    grid-template-rows: 10% 10% 10% 50% 20%;
-   }
-#eingabe.grid-container {
+   
+
+#eingabecontainer.grid-container {
     display: grid;
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 10% 10% 10% 50% 20%;
    }
-.ausgabecontainer.grid-container {
+#ausgabe.grid-container {
     display: grid;
 
-    grid-template-columns: 1fr 1fr   1fr;
-    grid-template-rows: 10% 10% 10% 50% 20%;
+    grid-template-columns: 1fr  20% 20% 20% 20%;
+    grid-template-rows: 50% 20%;
    }
 
 .grid-item {
@@ -30,8 +27,9 @@ body {
    
 }
 
-.tippstone.grid-item {
+#versuche.grid-item {
     background-color: rebeccapurple;
+    height: 40px;
 }
 
 #Rot.grid-item {

@@ -1,6 +1,6 @@
 {
     "editor.quickSuggestions": {
-        "other": "inline",
+        "other": "on",
         "comments": "inline",
         "strings": "inline"
     },
