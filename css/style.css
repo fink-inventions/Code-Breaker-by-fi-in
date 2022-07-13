@@ -1,8 +1,22 @@
-
-
+body {
+    margin-left: 50px;
+}
 .grid-container {
     display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr  1fr 1fr;
+    grid-template-rows: 10% 10% 10% 50% 20%;
+   }
+#eingabe.grid-container {
+    display: grid;
+
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 10% 10% 50% 20%;
+   }
+.ausgabecontainer.grid-container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr   1fr;
     grid-template-rows: 10% 10% 10% 50% 20%;
    }
 
@@ -10,8 +24,14 @@
     width: 80px;
     height: 80px;
     background-color: aquamarine;
+    box-shadow: orange 5px 5px;
+    
 
    
+}
+
+.tippstone.grid-item {
+    background-color: rebeccapurple;
 }
 
 #Rot.grid-item {
@@ -27,13 +47,37 @@
 #Gelb.grid-item {
     background-color: yellow;
 }
-button {
+
+button.grid-item {
     border-style: solid;
     border-width:  5px;
+    background-color: aqua;
+    height: 60px;
+    width: 40px;
 }
 
 #Position1.grid-item {
+    height: 40px;
+    padding: 5px;;
     background-color: black;
+    font-size: large;
+    color: wheat;
+    text-align: center;
+    box-shadow: green  -5px -5px;
+   
+ 
+    
+}
+p.grid-item {
+    background-color: blueviolet;
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: green  -5px -5px;
+   
+   
+    
 }
 
 
